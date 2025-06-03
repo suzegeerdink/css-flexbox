@@ -1,0 +1,140 @@
+/* SIDEBAR */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.container nav {
+    display: flex;
+    flex-direction: row;
+    min-width: 250px;
+    min-height: 100vh;
+    flex-shrink: 0;
+}
+
+.logo-menu div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 72%;
+    align-items: center;
+}
+
+.logo-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-basis: 230px;
+}
+
+.inhoud-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-height: 95vh;
+    overflow-y: scroll;
+}
+
+.menu > li > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu > li > a.active {
+    background-color: lightgrey;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.buttons-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    list-style: none;
+    flex-basis: 105px;
+    width: 100%;
+}
+
+.button-primary, .button-secondary {
+    width: 100%;
+}
+
+/* RIGHT CONTAINER, MAIN PAGE */
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.container-2 header {
+    text-align: center;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../assets/placeholder-image.svg");
+    background-position: center;
+    max-height: 350px;
+}
+
+article {
+    max-width: 260px;
+}
+
+.container-2 main > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex: 1;
+}
+
+.container-2 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50px;
+    background-color: #383838;
+    color: white;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    gap: 20px;
+
+}
+.price-and-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.price-and-icon img {
+    height: 1em;
+    width: auto;
+}

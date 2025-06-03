@@ -1,0 +1,135 @@
+/*Navigatie balk 01*/
+
+.navbar-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-one > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 2000px;
+    justify-content: space-between;
+}
+
+/*Navigatie balk 02*/
+
+.navbar-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-two > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 500px;
+}
+
+/*Navigatie balk 03*/
+
+.navbar-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-three > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 190px;
+    align-items: center;
+}
+
+.navbar-three > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 500px;
+}
+
+/*Navigatie balk 04*/
+
+.navbar-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 2000px;
+}
+
+.logo-and-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 750px;
+}
+
+.logo-and-list > .list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 500px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 190px;
+}
+
+.buttons-navbar-four {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 190px;
+}
+
+/*Navigatie balk 05*/
+
+.navbar-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 2000px;
+}
+
+.navbar-five > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 190px;
+}
+
+.navbar-five-ul-one {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 500px;
+    align-items: center;
+}
+
+.navbar-five-ul-two {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 190px;
+    align-items: center;
+}
